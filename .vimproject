@@ -1,0 +1,17 @@
+Oncodrive=/$PWD filter="*"{
+ workflow.rb
+ lib=lib{
+  oncodrive.rb
+ }
+ share=share{
+ }
+ www=www{
+  views=views{
+   entity=entity{
+    Study=Study{
+     oncodrive.haml
+    }
+   }
+  }
+ }
+}
